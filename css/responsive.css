@@ -38,6 +38,49 @@
     flex-direction: column-reverse;
     flex-wrap: wrap-reverse;
   }
+
+  .heading h4 {
+    text-align: left;
+  }
+
+  .product-area {
+    flex-direction: column-reverse;
+  }
+
+  .product-box {
+    padding: 25px 0;
+    width: 50%;
+  }
+
+  .product-img img {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .see-more {
+    float: left;
+  }
+
+  .features-area {
+    flex-direction: column-reverse;
+    width: 100%;
+    padding: 30px 20px;
+    align-items: center;
+  }
+
+  .features-content h4 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .features-img {
+    width: 100%;
+  }
+
+  .features-content {
+    width: 100%;
+  }
 }
 
 /* MEDIAM-DEVICE  */

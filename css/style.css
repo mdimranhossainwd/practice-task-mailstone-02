@@ -148,7 +148,7 @@ main {
   border-radius: 5px;
   background: #fff;
   box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
-  padding: 15px;
+  padding: 20px 15px;
   width: 100%;
 }
 
@@ -217,4 +217,38 @@ main {
 
 .features-content p {
   margin-bottom: 22px;
+}
+
+/* FOOTER-AREA  */
+
+footer {
+  background: #0a0826;
+  padding: 100px 0 50px 0;
+}
+
+.footer-area {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer-content h4 {
+  font-size: 26px;
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+.footer-content p {
+  font-size: 15px;
+  color: #d9dbe1;
+  margin-bottom: 25px;
+}
+
+.footer-icon i {
+  background: #22213c;
+  padding: 20px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 22px;
+  margin-right: 15px;
 }
