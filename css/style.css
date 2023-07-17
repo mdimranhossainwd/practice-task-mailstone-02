@@ -26,13 +26,27 @@ p {
   color: #3a3a3a;
 }
 
+.btn {
+  color: #fff;
+  font-weight: 700;
+  font-size: 17px;
+  padding: 20px 37px;
+  border: none;
+  border-radius: 45px;
+  background: #e02c6d;
+  align-items: center;
+}
+
 /* NABIGATION-BAR-AREA  */
+
+header {
+  padding: 50px 120px;
+}
 
 .navigation-bar {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  padding: 40px 0;
 }
 
 .menu > ul {
@@ -53,4 +67,36 @@ p {
 
 .logo h5 {
   font-size: 25px;
+}
+
+/* BANNER-AREA-START  */
+
+.banner-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 0;
+}
+
+.banner-content {
+  width: 500px;
+}
+
+.banner-content h2 {
+  margin-bottom: 14px;
+  line-height: 60px;
+}
+
+.banner-content p {
+  margin-bottom: 25px;
+}
+
+.banner-img {
+  background-image: url("../images/Circle\ design.svg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.btn i {
+  margin-left: 18px;
 }
