@@ -1,0 +1,45 @@
+@media screen and (max-width: 560px) {
+  header {
+    padding: 50px 20px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .logo {
+    margin: 0 auto;
+  }
+
+  .banner-area {
+    flex-direction: column-reverse;
+  }
+
+  .banner-content {
+    margin-top: 60px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .banner-content h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+/* MEDIAM-DEVICE  */
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  header {
+    padding: 50px 20px;
+  }
+
+  .logo h5 {
+    font-size: 22px;
+  }
+
+  .banner-content h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
