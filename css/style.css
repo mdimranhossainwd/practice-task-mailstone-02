@@ -30,11 +30,15 @@ p {
   color: #fff;
   font-weight: 700;
   font-size: 17px;
-  padding: 20px 37px;
+  padding: 15px 37px;
   border: none;
   border-radius: 45px;
   background: #e02c6d;
   align-items: center;
+}
+
+.btn-normal {
+  border-radius: 0;
 }
 
 /* NABIGATION-BAR-AREA  */
@@ -98,7 +102,7 @@ header {
 }
 
 .btn i {
-  margin-left: 18px;
+  margin-left: 14px;
 }
 
 .banner-img img {
@@ -186,8 +190,31 @@ main {
   color: rgba(224, 44, 109, 0.87);
   text-decoration: none;
   font-weight: 700;
+  display: block;
 }
 
 .see-more i {
   margin-left: 10px;
+}
+
+/* FEATURES-AREA  */
+
+.features-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 160px 0 60px 0;
+}
+
+.features-content {
+  width: 500px;
+}
+
+.features-content h4 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.features-content p {
+  margin-bottom: 22px;
 }
